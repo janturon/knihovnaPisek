@@ -55,5 +55,5 @@ void setup() {
 
 void loop() {
   HCSR04_loop();
-  if(HCSR04_getCm()<90) pump_splash(250);
+  if(HCSR04_getCm()<90) pump_splash(250); //toto je potreba kalibrovat
 }
